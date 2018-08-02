@@ -18,8 +18,8 @@ function nowServing(katzDeliLine) {
         var update = "The line is currently: ";
         deliLine.forEach(function(item, index){
         update += index+1 +"." + " " + item + "," + " "});
-        } update.slice(0,24);
-        return update
+        } let newUpdate = update.slice(0,24);
+        return newUpdate;
   }
 
  
