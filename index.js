@@ -18,8 +18,8 @@ function nowServing(katzDeliLine) {
         var update = "The line is currently: ";
         deliLine.forEach(function(item, index){
         update += index+1 +"." + " " + item + "," + " "});
-        str = str.replace(/,\s*$/, "");
-        } return update
+        let newUpdate = str.replace(/,\s*$/, "");
+        } return update, newUpdate
   }
 
  
